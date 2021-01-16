@@ -1,4 +1,4 @@
-	//selecting all required elements
+//selecting all required elements
 const start_btn = document.querySelector(".start_btn button");
 const info_box = document.querySelector(".info_box");
 const exit_btn = info_box.querySelector(".buttons .quit");
@@ -63,7 +63,7 @@ restart_quiz.onclick = ()=>{
 // if quitQuiz button clicked
 quit_quiz.onclick = ()=>{
     // window.location.reload(); //reload the current window
-    window.location.replace("Home.html");
+    window.location.replace("index.html");
 }
 
 const next_btn = document.querySelector("footer .next_btn");
